@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185941331EB8B3F4002B8960 /* TabProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185941321EB8B3F4002B8960 /* TabProduct.swift */; };
+		185B80061EB892ED00E54E43 /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B80051EB892ED00E54E43 /* ProductListCell.swift */; };
+		185B800A1EB8935200E54E43 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B80091EB8935200E54E43 /* ProductListView.swift */; };
+		185B800D1EB8944500E54E43 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B800C1EB8944500E54E43 /* Product.swift */; };
+		185B80101EB89DBB00E54E43 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B800F1EB89DBB00E54E43 /* Utils.swift */; };
+		185B80121EB8AB0200E54E43 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 185B80111EB8AB0200E54E43 /* Podfile */; };
+		186B0F071EB10B0A00152932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B0F061EB10B0A00152932 /* AppDelegate.swift */; };
+		186B0F091EB10B0A00152932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B0F081EB10B0A00152932 /* ViewController.swift */; };
+		186B0F0C1EB10B0A00152932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186B0F0A1EB10B0A00152932 /* Main.storyboard */; };
+		186B0F0E1EB10B0A00152932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186B0F0D1EB10B0A00152932 /* Assets.xcassets */; };
+		186B0F111EB10B0A00152932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186B0F0F1EB10B0A00152932 /* LaunchScreen.storyboard */; };
+		CA75EB4648B8F3C2D5D0F8E1 /* Pods_ExpirationReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADE3932D08E1763CF7B05E6 /* Pods_ExpirationReminder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185941321EB8B3F4002B8960 /* TabProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabProduct.swift; path = Entities/TabProduct.swift; sourceTree = "<group>"; };
+		185B80051EB892ED00E54E43 /* ProductListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductListCell.swift; path = Adapters/ProductListCell.swift; sourceTree = "<group>"; };
+		185B80091EB8935200E54E43 /* ProductListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductListView.swift; path = Views/ProductListView.swift; sourceTree = "<group>"; };
+		185B800C1EB8944500E54E43 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = Entities/Product.swift; sourceTree = "<group>"; };
+		185B800F1EB89DBB00E54E43 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		185B80111EB8AB0200E54E43 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		186B0F031EB10B0A00152932 /* ExpirationReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpirationReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186B0F061EB10B0A00152932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186B0F081EB10B0A00152932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		186B0F0B1EB10B0A00152932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186B0F0D1EB10B0A00152932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186B0F101EB10B0A00152932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186B0F121EB10B0A00152932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186B0F191EB10D1900152932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1ADE3932D08E1763CF7B05E6 /* Pods_ExpirationReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpirationReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCED0FD99FCADBE9143917F /* Pods-ExpirationReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpirationReminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExpirationReminder/Pods-ExpirationReminder.debug.xcconfig"; sourceTree = "<group>"; };
+		FB029109494B06B26AFCE50A /* Pods-ExpirationReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpirationReminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpirationReminder/Pods-ExpirationReminder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186B0F001EB10B0900152932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA75EB4648B8F3C2D5D0F8E1 /* Pods_ExpirationReminder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185B80041EB892C400E54E43 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				185B80051EB892ED00E54E43 /* ProductListCell.swift */,
+			);
+			name = Adapters;
+			sourceTree = "<group>";
+		};
+		185B80081EB8934100E54E43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				185B80091EB8935200E54E43 /* ProductListView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		185B800B1EB8943400E54E43 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				185941321EB8B3F4002B8960 /* TabProduct.swift */,
+				185B800C1EB8944500E54E43 /* Product.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		185B800E1EB89DAF00E54E43 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				185B800F1EB89DBB00E54E43 /* Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		186B0EFA1EB10B0900152932 = {
+			isa = PBXGroup;
+			children = (
+				185B80111EB8AB0200E54E43 /* Podfile */,
+				186B0F051EB10B0A00152932 /* ExpirationReminder */,
+				186B0F041EB10B0A00152932 /* Products */,
+				C2348F2E21173CDE09E3DB82 /* Pods */,
+				5EDD4E356315DAE753EBBFC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		186B0F041EB10B0A00152932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186B0F031EB10B0A00152932 /* ExpirationReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186B0F051EB10B0A00152932 /* ExpirationReminder */ = {
+			isa = PBXGroup;
+			children = (
+				185B800E1EB89DAF00E54E43 /* Utils */,
+				185B800B1EB8943400E54E43 /* Entities */,
+				185B80081EB8934100E54E43 /* Views */,
+				185B80041EB892C400E54E43 /* Adapters */,
+				186B0F061EB10B0A00152932 /* AppDelegate.swift */,
+				186B0F081EB10B0A00152932 /* ViewController.swift */,
+				186B0F0A1EB10B0A00152932 /* Main.storyboard */,
+				186B0F0D1EB10B0A00152932 /* Assets.xcassets */,
+				186B0F0F1EB10B0A00152932 /* LaunchScreen.storyboard */,
+				186B0F121EB10B0A00152932 /* Info.plist */,
+			);
+			path = ExpirationReminder;
+			sourceTree = "<group>";
+		};
+		5EDD4E356315DAE753EBBFC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE3932D08E1763CF7B05E6 /* Pods_ExpirationReminder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2348F2E21173CDE09E3DB82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FCED0FD99FCADBE9143917F /* Pods-ExpirationReminder.debug.xcconfig */,
+				FB029109494B06B26AFCE50A /* Pods-ExpirationReminder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186B0F021EB10B0900152932 /* ExpirationReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186B0F151EB10B0A00152932 /* Build configuration list for PBXNativeTarget "ExpirationReminder" */;
+			buildPhases = (
+				14559DD66CB812ECF129E734 /* [CP] Check Pods Manifest.lock */,
+				186B0EFF1EB10B0900152932 /* Sources */,
+				186B0F001EB10B0900152932 /* Frameworks */,
+				186B0F011EB10B0900152932 /* Resources */,
+				0017031C0FD07140AA9EE5A0 /* [CP] Embed Pods Frameworks */,
+				F5EC1EB9BBE21BE8356C0FCE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpirationReminder;
+			productName = ExpirationReminder;
+			productReference = 186B0F031EB10B0A00152932 /* ExpirationReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186B0EFB1EB10B0900152932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jakub Pałac";
+				TargetAttributes = {
+					186B0F021EB10B0900152932 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W6JBZST97Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 186B0EFE1EB10B0900152932 /* Build configuration list for PBXProject "ExpirationReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186B0EFA1EB10B0900152932;
+			productRefGroup = 186B0F041EB10B0A00152932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186B0F021EB10B0900152932 /* ExpirationReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186B0F011EB10B0900152932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186B0F111EB10B0A00152932 /* LaunchScreen.storyboard in Resources */,
+				186B0F0E1EB10B0A00152932 /* Assets.xcassets in Resources */,
+				185B80121EB8AB0200E54E43 /* Podfile in Resources */,
+				186B0F0C1EB10B0A00152932 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0017031C0FD07140AA9EE5A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpirationReminder/Pods-ExpirationReminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14559DD66CB812ECF129E734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5EC1EB9BBE21BE8356C0FCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpirationReminder/Pods-ExpirationReminder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186B0EFF1EB10B0900152932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B800A1EB8935200E54E43 /* ProductListView.swift in Sources */,
+				185941331EB8B3F4002B8960 /* TabProduct.swift in Sources */,
+				186B0F091EB10B0A00152932 /* ViewController.swift in Sources */,
+				185B800D1EB8944500E54E43 /* Product.swift in Sources */,
+				186B0F071EB10B0A00152932 /* AppDelegate.swift in Sources */,
+				185B80061EB892ED00E54E43 /* ProductListCell.swift in Sources */,
+				185B80101EB89DBB00E54E43 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		186B0F0A1EB10B0A00152932 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186B0F0B1EB10B0A00152932 /* Base */,
+				186B0F191EB10D1900152932 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186B0F0F1EB10B0A00152932 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186B0F101EB10B0A00152932 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186B0F131EB10B0A00152932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186B0F141EB10B0A00152932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186B0F161EB10B0A00152932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCED0FD99FCADBE9143917F /* Pods-ExpirationReminder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6JBZST97Z;
+				INFOPLIST_FILE = ExpirationReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.net.xn--paac-11a.ExpirationReminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		186B0F171EB10B0A00152932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB029109494B06B26AFCE50A /* Pods-ExpirationReminder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6JBZST97Z;
+				INFOPLIST_FILE = ExpirationReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.net.xn--paac-11a.ExpirationReminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186B0EFE1EB10B0900152932 /* Build configuration list for PBXProject "ExpirationReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186B0F131EB10B0A00152932 /* Debug */,
+				186B0F141EB10B0A00152932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186B0F151EB10B0A00152932 /* Build configuration list for PBXNativeTarget "ExpirationReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186B0F161EB10B0A00152932 /* Debug */,
+				186B0F171EB10B0A00152932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186B0EFB1EB10B0900152932 /* Project object */;
+}
